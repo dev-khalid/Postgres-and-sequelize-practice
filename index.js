@@ -7,7 +7,7 @@ db.authenticate().then(() => console.log("Connected to Database")).catch(err=> c
 const app = express(); 
 
 app.get('/',(req,res) => { 
-  res.send('Hello from backend.'); 
+  res.send('I will explore postgreSql and sequelize orm right now . Its been a problem for me for a long time. '); 
 })
 
 app.listen(5000,() => { 
